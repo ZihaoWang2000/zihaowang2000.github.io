@@ -1,0 +1,11 @@
+{
+    "hello": "Hello",
+    "goodbye": "Good Bye",
+    "pageTitles": {
+        "about": "About Me",
+        "resume": "Resume",
+        "portfolio": "Portfolio",
+        "plog": "Plog",
+        "contact": "Contact"
+    }
+}
