@@ -16,7 +16,7 @@ export default defineEventHandler(() => {
         en: 'Transformative Project Presentation',
         id_ID: '变革性项目演示',
       },
-      image: 'https://raw.githubusercontent.com/ZihaoWang2000/MyPhoto/main/DSC00206.jpg',
+      image: '/images/plog1.png',
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ export default defineEventHandler(() => {
         en: 'Transformative Project Presentation',
         id_ID: '变革性项目演示',
       },
-      image: 'https://raw.githubusercontent.com/ZihaoWang2000/MyPhoto/main/DSC00610.jpg',
+      image: '/images/plog2.png',
     },
   ]
 })
