@@ -16,7 +16,7 @@ export default defineEventHandler(() => {
         en: 'Transformative Project Presentation',
         id_ID: '变革性项目演示',
       },
-      image: '/images/plog1.png',
+      image: '/images/plog1.jpg',
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ export default defineEventHandler(() => {
         en: 'Transformative Project Presentation',
         id_ID: '变革性项目演示',
       },
-      image: '/images/plog2.png',
+      image: '/images/plog2.jpg',
     },
   ]
 })
