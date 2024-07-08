@@ -28,15 +28,15 @@ jobs:
       - name: Generate static files
         run: npm run generate
       
-      - name: Deploy to GitHub Pages
-        run: |
-          echo 'zihao.info' > ./dist/CNAME
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m 'Deploy to GitHub Pages'
-          git push origin gh-pages --force
-        working-directory: ./dist
+      # - name: Deploy to GitHub Pages
+      #   run: |
+      #     echo 'zihao.info' > ./dist/CNAME
+      #     git config --global user.name 'github-actions[bot]'
+      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      #     git add .
+      #     git commit -m 'Deploy to GitHub Pages'
+      #     git push origin gh-pages --force
+      #   working-directory: ./dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
