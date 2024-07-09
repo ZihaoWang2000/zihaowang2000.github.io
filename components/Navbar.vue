@@ -29,11 +29,11 @@
         </NuxtLink>
       </li>
 
-      <li class="navbar-item">
+      <!-- <li class="navbar-item">
         <NuxtLink to="/contact" class="navbar-link">
           {{ $t('pageTitles.contact') }}
         </NuxtLink>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
