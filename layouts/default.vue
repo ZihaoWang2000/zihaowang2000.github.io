@@ -20,6 +20,9 @@ useHead({
       rel: 'icon', type: 'image/jpg', href: '../images/icon.jpg',
     },
     {
+      rel: 'apple-touch-icon', href: '../images/icon.jpg',
+    },
+    {
       rel: 'preconnect',
       href: 'https://fonts.googleapis.com',
     },
