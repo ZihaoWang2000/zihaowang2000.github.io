@@ -5,14 +5,14 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'Identifying Seasonal Snacking Patterns and Routines',
-        id_ID: '利用众包饮食记录识别季节性零食模式和惯例',
+        en: 'Examining Snacking Behavior with Food Diaries and Data Mining Methods',
+        id_ID: '用饮食日记和数据挖掘方法研究零食食用行为',
       },
       category: {
         id: 1, //see categories.js
         date: {
-          en: 'Present',
-          id_ID: '进行中',
+          en: 'July 2024',
+          id_ID: '2024年7月',
         },
         title: {
           en: 'Research',
@@ -20,14 +20,14 @@ export default defineEventHandler(() => {
         },
       },
       content: {
-        en: 'This study emphasizes on identifying the seasonal snacking patterns and routines on the basis of dietary logging data collected through mobile surveys in the Netherlands.',
-        id_ID: '该研究着重于根据荷兰移动调查收集的饮食记录数据来确定季节性零食模式和惯例。',
+        en: 'This study investigates snacking behavior by analyzing food diary data from Dutch Millennials through data mining methods such as topic modeling and association rule mining.',
+        id_ID: '本研究通过主题建模和关联规则挖掘等数据挖掘方法分析荷兰千禧一代的食物日记数据，从而分析零食食用行为。',
       },
       desc: {
           en: 'View Project',
           id_ID: '查看项目',
         },
-      image: '/images/foodloop.png',
+      image: '/images/foodloop.jpg',
       url: 'https://www.wur.nl/nl/onderzoek-resultaten/leerstoelgroepen/agrotechnologie-en-voedselwetenschappen/levensmiddelentechnologie/food-quality-and-design-1/foodloop/het-foodloop-onderzoek.htm',
     },
     {
