@@ -10,7 +10,7 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/avatar.jpeg" alt="Photo" width="80">
+        <img src="/images/avatar.jpg" alt="Photo" width="80">
       </figure>
 
       <div class="info-content">
