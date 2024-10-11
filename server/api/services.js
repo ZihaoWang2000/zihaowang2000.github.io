@@ -22,7 +22,7 @@ export default defineEventHandler(() => {
         id_ID:'数据分析',
       },
       description: {
-        en: 'I\'m willing to insight into business-related problems with data analysis.',
+        en: 'I\'m willing to provide insight into business-related problems with data analysis.',
         id_ID: '我愿意通过数据分析以洞悉业务相关的问题。',
       },
       icon: 'devicon:jupyter',
@@ -31,14 +31,14 @@ export default defineEventHandler(() => {
     {
       id: 3,
       title: {
-        en: 'Anime',
-        id_ID:'日本动画',
+        en: 'Sustainability',
+        id_ID:'可持续发展',
       },
       description: {
-        en: 'I love Japanese animes and the unbridled imagination in them.',
-        id_ID: '我喜欢日本动画以及其中天马行空的想象力。',
+        en: 'ESG is the wisest investment.',
+        id_ID: ' ESG是最有前瞻性的投资。',
       },
-      icon: 'cib:crunchyroll',
+      icon: 'noto:globe-showing-americas',
       image: null,
     },
     {

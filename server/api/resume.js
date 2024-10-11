@@ -9,8 +9,8 @@ export default defineEventHandler(() => {
                 id_ID: '洛桑联邦理工学院',
             },
             date: {
-                en: 'Sep 2022 — Oct 2024',
-                id_ID: '2022年9月 — 2024年10月',
+                en: 'Sep 2022 — Jul 2024',
+                id_ID: '2022年9月 — 2024年7月',
             },
             location: {
                 en: 'Lausanne, Switzerland',
