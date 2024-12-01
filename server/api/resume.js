@@ -9,8 +9,8 @@ export default defineEventHandler(() => {
                 id_ID: '洛桑联邦理工学院',
             },
             date: {
-                en: 'Sep 2022 — Jul 2024',
-                id_ID: '2022年9月 — 2024年7月',
+                en: 'Sep 2022 — Oct 2024',
+                id_ID: '2022年9月 — 2024年10月',
             },
             location: {
                 en: 'Lausanne, Switzerland',
@@ -44,14 +44,33 @@ export default defineEventHandler(() => {
 
     const experience = [
         {
+            id: 5,
+            title: {
+                en: 'International Air Transport Association (IATA)',
+                id_ID: '国际航空运输协会',
+            },
+            date: {
+                en: 'Oct 2024 — Present',
+                id_ID: '2024年10月 — 至今',
+            },
+            location: {
+                en: 'Geneva, Switzerland',
+                id_ID: '日内瓦，瑞士',
+            },
+            position: {
+                en: 'System Support and Coordination Intern',
+                id_ID: '系统支持与协调实习',
+            },
+        },
+        {
             id: 1,
             title: {
                 en: 'Idiap Research Institute',
                 id_ID: 'Idiap研究中心',
             },
             date: {
-                en: 'Feb 2024 — Present',
-                id_ID: '2024年2月 — 至今',
+                en: 'Feb 2024 — Aug 2024',
+                id_ID: '2024年2月 — 2024年8月',
             },
             location: {
                 en: 'Martigny, Switzerland',

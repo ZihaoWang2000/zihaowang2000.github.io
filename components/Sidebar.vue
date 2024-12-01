@@ -19,7 +19,7 @@ function toggleMenu() {
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Master's Student at EPFL</span>
+          <span class="xl:after:content-[''] after:content-[',']">Graduate at EPFL, UNIL & IMD</span>
         </p>
       </div>
 
