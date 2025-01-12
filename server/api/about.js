@@ -5,8 +5,8 @@ export default defineEventHandler(() => {
     {
       id: 1,
       description: {
-        en: 'Hi there! I\'m currently a master\'s student in EPFL, UNIL-HEC and IMD. I\'m equipped with knowledge about technology and management and am very interested in multimedia production and applications.',
-        id_ID: '哈喽！我目前是瑞士洛桑联邦理工学院、洛桑大学商学院以及瑞士国际发展与管理学院联合培养项目的硕士生，我对数字化技术和商业结合的新趋势非常感兴趣，并且也很热衷于多媒体创作与应用。',
+        en: 'Hi there! I\'m currently an intern at IATA with a master\'s degree in EPFL, UNIL-HEC and IMD. I\'m equipped with knowledge about technology and management and am very interested in multimedia production and applications.',
+        id_ID: '哈喽！我目前是国际航空运输协会（IATA）的实习生，硕士毕业于瑞士洛桑联邦理工学院、洛桑大学商学院以及瑞士国际发展与管理学院的联合培养项目，我对数字化技术和商业结合的新趋势非常感兴趣，并且也很热衷于多媒体创作与应用。',
       },
     },
     {
