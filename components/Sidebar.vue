@@ -87,11 +87,11 @@ function toggleMenu() {
       <div class="separator" />
 
       <ul class="social-list">
-        <li class="social-item">
+        <!-- <li class="social-item">
           <NuxtLink to="mailto:elliott_wang2000@outlook.com" class="social-link" target="_blank">
             <ion-icon name="mail-outline" />
           </NuxtLink>
-        </li>
+        </li> -->
         <LangSwitcher2 />
         <!-- <DarkToggle /> -->
       </ul>
