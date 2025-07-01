@@ -19,7 +19,7 @@ export default function About() {
 
   const combinedOpacity = useTransform(
     [opacityIn, opacityOut],
-    ([a, b]) => a * b
+    ([a, b]: [number, number]) => a * b
   );
 
   return (
