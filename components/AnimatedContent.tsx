@@ -96,14 +96,11 @@ const AnimatedContent: React.FC<AnimatedContentProps> = ({
     api,
   ]);
 
-  const AnimatedDiv = animated.div as React.FC<
-    React.ComponentPropsWithoutRef<"div"> & { children: ReactNode }
-  >;
-
   return (
-    <AnimatedDiv ref={ref} style={springProps}>
+    // @ts-ignore
+    <animated.div ref={ref} style={springProps}>
       {children}
-    </AnimatedDiv>
+    </animated.div>
   );
 };
 
