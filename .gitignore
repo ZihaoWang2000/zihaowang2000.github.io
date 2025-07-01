@@ -4,3 +4,8 @@ dist
 .output
 .nuxt
 .env
+*.gz
+*.js.gz
+*.css.gz
+*.html.gz
+.DS_Store

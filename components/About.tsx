@@ -29,7 +29,10 @@ export default function About() {
     >
       <motion.div
         style={{ y, scale, opacity: combinedOpacity }}
-        className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12"
+        {...{
+          className:
+            "flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12",
+        }}
       >
         <div className="max-w-3xl text-center space-y-6 mr-12">
           <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
