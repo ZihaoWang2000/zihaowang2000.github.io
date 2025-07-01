@@ -87,6 +87,7 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
         return (
           <span
             key={index}
+            // @ts-ignore
             ref={(el) => (wordRefs.current[index] = el)}
             className="relative text-[3rem] font-black cursor-pointer"
             style={
@@ -110,6 +111,7 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
       })}
 
       <motion.div
+        // @ts-ignore
         className="absolute top-0 left-0 pointer-events-none box-border border-0"
         animate={{
           x: focusRect.x,

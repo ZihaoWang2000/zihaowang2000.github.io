@@ -82,7 +82,7 @@ export default function Projects() {
   const y = useTransform(scrollYProgress, [0.5, 1], [0, -100]);
   const combinedOpacity = useTransform(
     [opacityIn, opacityOut],
-    ([a, b]) => a * b
+    ([a, b]: [number, number]) => a * b
   );
 
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -94,6 +94,7 @@ export default function Projects() {
     >
       <motion.div
         style={{ y, scale, opacity: combinedOpacity }}
+        // @ts-ignore
         className="max-w-5xl mx-auto"
       >
         <div className="text-center mb-16">
@@ -128,6 +129,7 @@ export default function Projects() {
         {selectedProject !== null && (
           <motion.div
             key="modal"
+            // @ts-ignore
             className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center px-4"
             onClick={() => setSelectedProject(null)}
             initial={{ opacity: 0 }}

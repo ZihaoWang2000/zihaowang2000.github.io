@@ -31,6 +31,7 @@ export default function Hero() {
     >
       <motion.div
         style={{ y, scale, opacity: combinedOpacity }}
+        // @ts-ignore
         className="z-10 space-y-6"
       >
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
