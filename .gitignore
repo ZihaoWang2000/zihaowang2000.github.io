@@ -5,7 +5,7 @@ dist
 .nuxt
 .env
 *.gz
-*.js.gz
-*.css.gz
-*.html.gz
+**/*.gz
 .DS_Store
+out/
+.next/
