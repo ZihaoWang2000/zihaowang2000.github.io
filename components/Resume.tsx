@@ -3,6 +3,11 @@ import { useRef } from "react";
 
 const experience = [
   {
+    title: "Training Systems Support Specialist – IATA",
+    period: "2025.08 – Present",
+    location: "Geneva, Switzerland",
+  },
+  {
     title: "Training Technology Intern – IATA",
     period: "2024.10 – Present",
     location: "Geneva, Switzerland",
