@@ -37,19 +37,18 @@ export default function About() {
         <div className="max-w-3xl text-center space-y-6 mr-12">
           <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            Hi there! I'm currently an intern at IATA ✈️ with a master's degree
-            in EPFL, UNIL-HEC and IMD. I'm equipped with knowledge about
+            Hi there! I'm currently an LMS Specialist at IATA ✈️ with a master's
+            degree in EPFL, UNIL-HEC and IMD. I'm equipped with knowledge about
             technology and management and am very interested in human-centered
             technology and socia science. I'm a hardworking guy when it comes to
             study and research, and have always got enthusiam for the future.
             Day Dreamer could be possibly suitable to describe me, but those
-            dreams are in the meanwhile motivating me to be better, and I
-            believe I will realize them at last.
+            dreams are in the meanwhile motivating me to be better.
           </p>
         </div>
         <ProfileCard
           name="Zihao"
-          title="Intern at IATA ✈️"
+          title="LMS Specialist"
           handle="wzhelliott"
           status="Online"
           contactText="Contact Me"
