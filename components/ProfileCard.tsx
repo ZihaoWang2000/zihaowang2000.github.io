@@ -62,7 +62,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
   enableTilt = true,
   miniAvatarUrl,
   name = "Zihao",
-  title = "Intern at IATA",
+  title = "System Specialist",
   handle = "wzheliott",
   status = "Online",
   contactText = "Contact",
